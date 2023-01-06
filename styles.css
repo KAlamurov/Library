@@ -1,0 +1,100 @@
+body {
+    background-color: bisque;
+}
+
+header {
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#books {
+border: 1px solid black;
+border-radius: 10px;
+background-color: rgb(176, 212, 212);
+font-weight: bolder;
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+
+.openBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.openButton {
+    border: none;
+    border-radius: 5px;
+    background-color: #1c87c9;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    position: fixed;
+}
+
+.loginPopup {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.formPopup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 9;
+}
+
+.formContainer {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.formContainer input[type=title],
+.formContainer input[type=author],
+.formContainer input[type=pages] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #eee;
+}
+
+.formContainer input[type=title]:focus,
+.formContainer input[type=author]:focus,
+.formContainer input[type=pages]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.formContainer .btn {
+    padding: 12px 20px;
+    border: none;
+    background-color: #8ebf42;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+
+.formContainer .cancel {
+    background-color: #cc0000;
+}
+
+.formContainer .btn:hover,
+.openButton:hover {
+    opacity: 1;
+}
