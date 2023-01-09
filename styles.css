@@ -1,9 +1,21 @@
-body {
-    background-color:rgb(14, 166, 166);
+html {
+    background-image: url("library.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+        height: 100%;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 }
 
 header {
     text-align: center;
+    color: rgb(176, 212, 212);
 }
 
 .main {
