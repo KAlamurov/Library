@@ -13,10 +13,10 @@ header {
 }
 
 #books {
-border: 1px solid black;
-border-radius: 10px;
-background-color: rgb(176, 212, 212);
-font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(176, 212, 212);
+    font-weight: bolder;
 }
 
 th,
@@ -24,20 +24,16 @@ td {
     border: 1px solid black;
 }
 
-.openBtn {
+.addBook {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin: 30px;
 }
 
 .openButton {
-    border: none;
-    border-radius: 5px;
-    background-color: #1c87c9;
-    color: white;
-    padding: 14px 20px;
-    cursor: pointer;
-    position: fixed;
+
+    background-color: rgb(176, 212, 212);
+
 }
 
 .loginPopup {
