@@ -1,5 +1,5 @@
 body {
-    background-color: bisque;
+    background-color:rgb(14, 166, 166);
 }
 
 header {
@@ -36,26 +36,21 @@ td {
 
 }
 
-.loginPopup {
-    position: relative;
-    text-align: center;
-    width: 100%;
-}
-
 .formPopup {
     display: none;
     position: fixed;
-    left: 45%;
-    top: 5%;
+    left: 50%;
+    top: 20%;
     transform: translate(-50%, 5%);
     border: 3px solid #999999;
     z-index: 9;
 }
 
 .formContainer {
+    text-align: center;
     max-width: 300px;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgb(176, 212, 212);
 }
 
 .formContainer input[type=title],
@@ -64,7 +59,7 @@ td {
     width: 90%;
     padding: 15px;
     margin: 5px 0 20px 0;
-    border: none;
+    border: 3px solid #999999;
     background: #eee;
 }
 
