@@ -70,9 +70,10 @@ td {
 .formContainer input[type=pages] {
     width: 90%;
     padding: 15px;
-    margin: 5px 0 20px 0;
+    margin: auto;
     border: 3px solid #999999;
     background: #eee;
+    margin-bottom: 20px;
 }
 
 .formContainer input[type=title]:focus,
@@ -89,12 +90,13 @@ td {
     color: #fff;
     cursor: pointer;
     width: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     opacity: 0.8;
 }
 
 .formContainer .cancel {
     background-color: #cc0000;
+    margin: auto;
 }
 
 .formContainer .btn:hover,
